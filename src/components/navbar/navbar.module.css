@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: white;
+  overflow-x: hidden;
+  background-color: var(--primary);
+  top: 0;
+  z-index: 10;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.the {
+  font-weight: lighter;
+}
+
+.wildfire {
+  font-weight: bold;
+  letter-spacing: 3px;
+}

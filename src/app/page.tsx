@@ -1,11 +1,16 @@
 import styles from "./page.module.css";
 import bandImage from "../../public/band-header-image.png";
+import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <section className={styles.headerTitle}>
-        <h1>The Wildfire</h1>
+        <h1 className={styles.headerH1}>
+          <p className={styles.the}>THE</p>
+          <p className={styles.wildfire}>WILDFIRE</p>
+        </h1>
         <img className={styles.bandImage} src={bandImage.src} alt="" />
       </section>
 

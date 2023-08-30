@@ -1,6 +1,30 @@
 .bandImage {
-  width: 400px;
+  width: 470px;
   height: auto;
+}
+
+.headerH1 {
+  margin-top: 50px;
+  margin-bottom: -260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.the {
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 30px;
+  line-height: 0px;
+}
+
+.wildfire {
+  line-height: 0px;
+  font-weight: bold;
+  font-size: 160px;
+  letter-spacing: 60px;
+  transform: translateY(-100px);
 }
 
 .headerTitle {
@@ -23,6 +47,7 @@
 .packages {
   width: 100vw;
   padding: 20px;
+  color: white;
 }
 
 .cards {
