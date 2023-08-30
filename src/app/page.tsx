@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.home}>
       <Navbar />
       <section className={styles.headerTitle}>
         <h1 className={styles.headerH1}>
