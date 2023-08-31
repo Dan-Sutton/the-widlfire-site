@@ -57,9 +57,10 @@ export default function Home() {
           </span>
         </div>
         <div className={styles.packageMessage}>
-          <h2>HAD SOMETHING ELSE IN MIND?</h2>
+          <h3>HAD SOMETHING ELSE IN MIND?</h3>
           <p>
-            <b>CONTACT</b> us and we’re sure we can provide a super solution!
+            <b>CONTACT</b> us and we’re sure <br></br> we can provide a super
+            solution!
           </p>
         </div>
       </section>
@@ -95,7 +96,7 @@ export default function Home() {
               talented they were and how fun their music was. People were up
               dancing until the very end! They also got the groom, best man, and
               friends up to sing along too. They were the highlight of the
-              wedding and I can't thank them enough for making our day so
+              wedding and I can’t thank them enough for making our day so
               special.“
             </p>
             <h4>Grace Christine</h4>
@@ -144,9 +145,9 @@ export default function Home() {
           <i>Inputs marked with * are required</i>
         </p>
 
-        <p>
-          <b>VIEW</b> our <b>FAQs</b> just in case any of your questions are
-          answered there!
+        <p className={styles.contactInfo}>
+          <b>VIEW</b> our <b>FAQs</b> just in case any of
+          <br /> your questions are answered there!
         </p>
 
         <button>SUBMIT</button>

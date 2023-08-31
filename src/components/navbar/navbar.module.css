@@ -1,6 +1,6 @@
 .navbar {
   position: fixed;
-  width: 93%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
@@ -17,6 +17,20 @@
   font-weight: lighter;
   letter-spacing: 3px;
   font-size: 12px;
+}
+
+.links > span {
+  user-select: none;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
+  transition: all 0.3s;
+  padding-bottom: 8px;
+}
+
+.links > span:hover {
+  border-bottom: 1px solid white;
+  transition: all 0.5s;
 }
 
 .the {

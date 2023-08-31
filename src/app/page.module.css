@@ -1,7 +1,31 @@
+.home h2 {
+  font-weight: 600;
+  letter-spacing: 10px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.home section {
+  padding: 40px;
+}
+
 .bandImage {
   width: 470px;
   height: auto;
   user-select: none;
+  animation: animate 5s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .headerH1 {
@@ -43,7 +67,7 @@
 .about > p,
 .packages > p {
   padding: 10px 150px;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 2px;
   line-height: 28px;
 }
@@ -100,11 +124,46 @@
   align-items: center;
 }
 
+.packageMessage > h3 {
+  font-size: 23px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 50px 0 0 0;
+}
+
+.packageMessage > p,
+.contactInfo {
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 .quotes {
   display: flex;
   gap: 50px;
   justify-content: space-between;
   padding: 0 100px;
+  margin-top: 20px;
+}
+
+.quoteTitle {
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  font-size: 19px;
+}
+
+.quote p {
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.quote h4 {
+  letter-spacing: 1px;
+  margin-bottom: -10px;
 }
 
 .quote {
@@ -116,10 +175,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.home h2 {
-  font-weight: 600;
-  letter-spacing: 10px;
-  font-size: 30px;
+  color: white;
 }
