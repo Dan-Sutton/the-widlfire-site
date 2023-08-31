@@ -7,10 +7,10 @@ export default function Home() {
     <div className={styles.home}>
       <Navbar />
       <section className={styles.headerTitle}>
-        <h1 className={styles.headerH1}>
+        <div className={styles.headerH1}>
           <p className={styles.the}>THE</p>
           <p className={styles.wildfire}>WILDFIRE</p>
-        </h1>
+        </div>
         <img className={styles.bandImage} src={bandImage.src} alt="" />
       </section>
 
@@ -120,25 +120,28 @@ export default function Home() {
       <section className={styles.contact}>
         <h2>CONTACT</h2>
         <div className={styles.contactInput}>
-          <div>
-            <input></input>
-            <input></input>
+          <div className={styles.topRowInputs}>
+            <input placeholder="FIRST NAME*" required></input>
+            <input placeholder="LAST NAME*" required></input>
           </div>
-          <div>
-            <input></input>
-            <input></input>
+          <div className={styles.bottomRowInputs}>
+            <input placeholder="EMAIL*" required></input>
+            <input placeholder="PHONE"></input>
           </div>
-          <div>
+          <div className={styles.bottomRowInputs}>
             <select name="packages">
+              <option value="" selected disabled>
+                SELECT PACKAGE
+              </option>
               <option value="notSure">Not Sure</option>
               <option value="band">Band + Background Music</option>
               <option value="dj">Band + DJ</option>
               <option value="acoustic">Acoustic Band Setup</option>
             </select>
-            <input></input>
+            <input placeholder="LOCATION"></input>
           </div>
 
-          <textarea></textarea>
+          <textarea placeholder="MESSAGE*"></textarea>
         </div>
 
         <p>
