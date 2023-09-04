@@ -20,6 +20,9 @@ export default function Navbar() {
           SONGS
         </Link>
         <span>GALLERY</span>
+        <Link className={styles.link} href={"/faqs"}>
+          FAQS
+        </Link>
       </div>
     </div>
   );
