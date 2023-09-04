@@ -19,18 +19,25 @@
   font-size: 12px;
 }
 
-.links > span {
+.links > span,
+.links > .link {
   user-select: none;
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
-  cursor: pointer;
   transition: all 0.3s;
   padding-bottom: 8px;
+  color: white;
 }
 
 .links > span:hover {
   border-bottom: 1px solid white;
   transition: all 0.5s;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .the {
